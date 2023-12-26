@@ -1,0 +1,380 @@
+============================================================
+BL2 Fix v1.0 Changelog
+============================================================
+====================
+Categories
+====================
+1. Quality of Life
+2. XP Rates
+3. Guns
+4. Shields
+5. Grenades
+6. Relics
+7. Class Mods
+8. Missions
+9. Enemies
+10. Raids
+11. Drop Rates
+12. Dedicated Drops
+13. Chests
+14. Vendors
+15. Misc
+
+====================
+1. Quality of Life
+====================
+-Added dialogue skip. Skip any dialogue with a button press. Defaults to Z, can be rebound in Options>Keyboard&Mouse>Modded Key Bindings. Host only.
+-Added option to use dialogue skip with a controller by crouching. Defaults to On.
+-Made the starter echo not be consumed on use.
+-Increased the dialog priority of the starter echo to 100.
+
+-Choice between max level being 72 or 80. Max level 72 highly recommended. Can be changed by clicking on either Level72.bat or Level80.bat in the BL2Fix folder.
+-Added option to cap op levels at either 8 or 10. Defaults to 8.
+
+-Added option to control which cutscenes will play. Defaults to Combat Only. (credit to FromDarkHell)
+
+-Added unlimited bank space. When depositing items, the game will no longer automatically withdraw items from the bank.
+
+-Added option to increase Axton's turret throw speed. Defaults to On.
+
+-Added option for multiplayer travel delay (0 to 10) Defaults to 2. Host controlled.
+-Added option to disable the game pausing while in your inventory (Menu pause). Defaults to On.
+-Added option to let you open your menu while in air. Defaults to On.
+-Added option to toggle Starting Gear for new characters (None, All, Premiere Club, Special Edition). Defaults to All.
+-Added option to toggle whether or not DLC pop-ups show. Defaults to off.
+-Added option to toggle whether or not golden key pop-ups show. Defaults to off.
+-Added option to remove the audio effects that cause certain areas to become aggressively loud. Defaults to On.
+-Added option for preferred runner type (MG or Rocket) Defaults to MG.
+-Added option for preferred technical type (Catapult or Sawblade). Defaults to Catapult.
+-Added new custom MOTD (messages of the day). Defaults to On.
+-Added option to change the colour of eridium and seraph crystal loot beams to match the colour of money. Defaults to On.
+The goal with this change is to reserve purple loot beams for items, so you don't get tricked into thinking you got a valuable drop when it's really just eridium.
+This also greatly helps with sorting through Raid Boss loot.
+
+-Added autopickup for eridium (UVHM+)
+-Added autopickup for seraph crystals
+-Added autopickup for torgue tokens
+
+====================
+2. XP Rates
+====================
+-Changed XP gained from enemies:
+-in NVHM:
+	3 levels above by 2.0x
+	4 levels above by 2.5x
+	5+ levels above by 3.0x
+
+-in TVHM+:
+	3 levels above by 3.0x
+	4 levels above by 4.0x
+	5+ levels above by 5.0x
+
+-Increased all XP gained from enemies in UVHM by 300%
+
+====================
+3. Guns
+====================
+-Increased odds of Butcher and Carnage generating with forward grip from 1/7 to 2/8
+
+In THVM+:
+-Green and higher rarity pistols, assault rifles, SMGs, shotguns and snipers now have an equal chance for all elements. Non-elemental is considered an element.
+-Green and higher launchers now have an equal chance for all elements except explosive, which is double.
+-Blue and higher rarity weapons now have an equal chance for all accessories.
+
+In UVHM+:
+-Increased odds of Green and higher rarity assault rifles, SMGs, shotguns, snipers and launchers generating with matching grip from 1/5 to 2/6
+-Increased odds of Green and higher rarity assault rifles, SMGs, shotguns, snipers and launchers generating with matching barrel from 1/5 to 2/6
+-Increased odds of Green and higher rarity pistols generating with matching grip from 1/8 to 2/9
+-Increased odds of Green and higher rarity pistols generating with matching barrel from 1/8 to 2/9
+-Decreased odds of assault rifles and sniper rifles generating with jakobs stock from 1/5 to 0.25/4.25
+-Decreased odds of launchers generating with tediore stock from 1/5 to 0.25/4.25
+
+====================
+4. Shields
+====================
+-Non-enemy shields generate with maliwan parts at the same rate as any other part, starting in TVHM. Maliwan parts greatly improve a shield's special abilities, such as roid damage or absorb chance.
+-Increased the odds of the Hide of Terramorphous spawning with better Accessories, starting in TVHM. Improves with playthrough. Accessory increases spike damage, nova damage and nova radius.
+
+====================
+5. Grenades
+====================
+General
+-Decreased the odds of a grenade being standard bandit to 0.75/8 (Base 1/8)
+-Increased the odds of a grenade being mirv bandit to 0.75/8 (Base 0.5/8)
+
+Delivery
+-Slightly increased the odds of legendary grenades being lobbed. Does not affect fastball, rolling thunder, nasty surprise, firestorm or chain lightning.
+-Significantly increased the odds of non-unique bandit grenades being sticky. Sticky odds decrease as grenade rarity increases.
+-Slightly increased the odds of green and blue bandit grenades being sticky lobbed, sticky longbow and sticky homing.
+-Significantly decreased the odds of non-unique bandit grenades being lobbed.
+
+Fuse
+-Bandit, Dahl, Hyperion, Torgue and Vladof grenades now use the same odds for fuse parts. Vladof will be less likely to have shorter fuses, while the rest will be more likely to have shorter fuses now.
+-Tediore and Maliwan grenades now use the same odds for fuse parts. Both are significantly more likely to have shorter fuses now.
+
+Element
+-Betty and Bandit MIRV grenades now have an equal chance for all elements.
+-Standard, Torgue Mirv, singularity, area effect and transfusion grenades now have an equal chance for all elements except explosive, which is double.
+-Increased the odds that grenades generate with higher elemental effect chance. Improves with playthrough.
+-Increased the odds that grenades generate with higher elemental effect damage, starting in TVHM. Improves with playthrough.
+
+Damage
+-Increased the odds that Bandit grenades generate with higher damage.
+-Increased the odds that all grenades generate with higher damage, starting in TVHM. Improves with playthrough.
+
+Radius (Zeta)
+-Increased the odds that standard Bandit grenades generate with bigger blast radius.
+
+Child Count
+-Increased the odds that MIRV and Transfusion grenades generate with a higher number of child grenades, starting in TVHM. Improves with playthrough.
+
+====================
+6. Relics
+====================
+-Relics now determine their quality based on 'world drop rates'. World drop rates Improve with playthrough.
+-Allegiance and stockpile relics are more likely to have multiple bonuses starting in TVHM. Improves with playthrough.
+
+-Relic types now use the following odds when a relic drops in NVHM and TVHM:
+    -Stockpile: 2 / 14.25
+    -Resistance: 1.5 / 14.25
+    -Elemental: 1.75 / 14.25
+    -Aggression: 1.5 / 14.25
+    -Allegiance: 2.5 / 14.25
+    -Vitality, Protection, Strength, Tenacity, Proficiency: 1 / 14.25
+
+-Relic types now use the following odds when a relic drops in UVHM+:
+    -Stockpile: 2.5 / 16.6475
+    -Resistance: 1.995 / 16.6475
+    -Elemental: 2.3275 / 16.6475
+    -Aggression: 1.5 / 16.6475
+    -Allegiance: 3.325 / 16.6475
+    -Vitality, Protection, Strength, Tenacity, Proficiency: 1 / 14.25
+
+====================
+7. Class Mods
+====================
+-All class mods are more likely to have higher stat bonuses in UVHM. Overpower levels improve this further.
+-Purple class Mods are more likely to have skill bonuses be 5/4/4 instead of 5/4/3 in UVHM. Overpower levels improve this further.
+
+====================
+8. Missions
+====================
+-Added mission reward rerolling. At the rewards screen, instantly generate a new mission reward using secondary interact. Costs 2 Eridium per reroll. (Does not work offhost)
+
+-"The Beard Makes the Man" now rewards the player with the Grog Nozzle.
+
+-Made Round 5 of Bandit Slaughter, Hyperion Slaughter and Creature Slaughter repeatable.
+-Made "Long Way To The Top" and "The Fall of Nakayama" repeatable.
+-Significantly improved the loot at the end of Long Way To The Top, The Fall of Nakayama and X Marks The Spot.
+
+-Raid missions are now available as soon as you have unlocked their map.
+
+====================
+9. Enemies
+====================
+-Enemies using green or better guns will now drop them on death. Does not apply to enemies in Fight for Sanctuary.
+-Added legendary items to enemyuse pools at a 1/11,111 chance
+-Gave the Zafords normal enemyuse pool rates.
+-in UVHM, tubby spawn weighting increased by 50%
+
+====================
+10. Raids
+====================
+-All raids explode with a lot of loot now. Loot scales significantly with playthrough and number of players. It's pretty cool.
+-Reverted Hyperius/Vorac health to pre-lilith dlc values (Credit to UCP)
+-Removed Hyperius Gate Lockout (Credit to UCP)
+
+-in UVHM, chance for ultimate badass varkid transforming into Vermivorous increased by 50%
+-OOO spawn probability increased from 1% to 2.5%
+-Triple O spawn probability scales with number of players (100% at 1 Player to 200% at 4 Player)
+
+-Added gen 2 pearls to The Invincible Son of Crawmerax The Invincible
+-Added gen 2 class mods to voracidous the invincible
+
+-Digistruct Peak chests are now free to open.
+-Digistruct Peak bosses now drop gear to help you progress through the overpower levels.
+
+====================
+11. Drop Rates
+====================
+-Rebalanced the global drop rates for all loot sources in the game. (More detail coming with a future changelog in a future version of the mod, sorry!)
+
+-Items no longer drop underlevelled in UVHM+.
+
+-buffed michael mamaril loot rates real good
+
+-Made Angelic Loaders and all other loaders fought in control core angel drop normal loader loot
+    -Added badass enemy loot to control core badass loaders
+    -Added normal guns and gear to ion, gun and war loaders in control core angel
+    -added normal guns and gear to angelic loaders in all playthroughs
+
+-Reduced the drop weight scale in LegendaryPlusPearl pools:
+	-from 1 to 0.25 for Pearlescent Pistols, ARs
+	-from 1 to 0.125 for Pearlescent SMGs, Shotguns, Sniper Rifles, Launchers
+-Reduced the drop weight scale in Pool_All_LegendaryPlusPearl_MinLevel51:
+	-from 1 to 0.5
+
+-Modified the rate at which E-tech guns drop relative to purples in global pools (from 1:1 to 1:2)
+-Modified the rate at which E-tech assault rifles, SMGs, shotguns, sniper rifles and launchers drop in raid pools (from 1:1 to 1:6)
+-Modified the rate at which E-tech pistols drop in raid pools (from 1:1 to 1:9)
+
+-Set "BossUniques" to 10% in NVHM, 20% in TVHM, 30% in UVHM and 50% at OP8. This is the value used for dedicated legendary drops.
+-Set "BossUniquesRareSpawnMonster" to 20% in NVHM, 40% in TVHM, 60% in UVHM and 100% at OP8. This is the value used for dedicated legendary drops from rare spawn enemies.
+-Set "BossUniqueRares" to 33% in NVHM, 66% in TVHM, 99% in UVHM and 165% at OP8. This is the value used for dedicated unique drops.
+
+====================
+12. Dedicated Drops
+====================
+-Boom and Bewm now use half BossUniques for their Bonus Package drop.
+
+-Enabled the Bitch to drop from the Sorceror's Daughter.
+
+-King Mong now rolls for additional Badaboom drops in NVHM based on your level.
+    -Level 30: 2 rolls total
+    -Level 50: 4 rolls total
+    -Level 72: 8 rolls total
+
+-Made the following enemies drop their items individually instead of in a single pool:
+    -Captain Flynt
+	-Sparky Flynt
+	-Wilhelm
+	-Southpaw Assassins
+	-Digipeak Assassins
+	-Ultimate Badass Varkid
+	-Son of Mothrakk
+	-Rakkanoth
+	-Sheriff of Lynchwood
+	-Dukino's Mom
+	-Bunker
+	-Saturn
+	-Warrior
+	-King Mong
+	-Spider Angel
+	-Gold Golem
+    -Henry The Stalker
+All skin/head customizations retain their original drop rates.
+
+-The following enemies have been assigned BossUniquesRareSpawnMonster instead of BossUniques:
+	-King Mong
+	-Black Queen (non-digipeak only)
+    
+-The following enemies have had their assigned drops multiplied by the number of players:
+	-Scorch
+    -Digi Scorch
+    -Captain Flynt
+	-Doc Mercy
+    -Digi Doc Mercy
+	-Southpaw Assassins
+    -Digipeak Assassins
+	-Black Queen
+    -Digi Black Queen
+	-Ultimate Badass Varkid
+	-Wilhelm
+	-Sheriff of Lynchwood
+	-Dukino's Mom
+    -Digi Dukino's Mom
+	-Son of Mothrakk
+	-Bunker
+	-King Mong
+	-Saturn
+    -Digi Saturn
+	-Warrior
+	-Sparky Flynt
+	-Rakkanoth
+	-Sorcerer's Daughter
+	-Gold Golem
+    -The Bagman
+    -Mad Dog
+    -Pimon
+    -Tumbaa
+    -Foreman Jasper/Rusty
+    -Donkey Mong
+    -Mortar
+    -Hunter Hellquist
+    -BoneHead_V2
+    -BoneHead_V3
+    -Sully the Blacksmith
+    -Clark the Combusted Cryptkeepder
+    -Moby
+    -Rue, The Love Thresher
+    -Fire Crak'n
+    -Greedtooth
+    -Arguk the Butcher
+    -Warlord Slog
+    -Arizona
+    -Jackenstein
+    -Bulstoss
+    -Bloodtail
+    -The Bulwark
+    -Rouge
+    -Treant
+    -The Big Sleep
+    -OMGWTH (Just the pearls at OP8!)
+    -Badass Creeper (he also got BossUniques and we decrowded his gun loot pool)
+
+-Loot Midgets have had their loot replaced with the following:
+	-Default LegendaryPlusPearl pool set to BossUniques
+    -1x Ancient Artefact guaranteed
+    -2x Ancient Artefacts at BossUniques
+    -3x Ancient Artefacts at GearDrops_PerPlayer x3
+    -2x GunsAndGear_VeryRare at GearDrops PerPlayer x2*
+	-1x GunsAndGear_Rare pool guaranteed*
+	-3x GunsAndGear_Rare pools at GearDrops_PerPlayer x2*
+	-2x GunsAndGear_Uncommon pool guaranteed*
+	-3x GunsAndGear_Uncommon pools at GearDrops_PerPlayer x2*
+	-1x GunsAndGearDropNumPlayersPlusOne pools, guaranteed*
+	-2x GunsAndGearDropNumPlayersPlusOne pools at GearDrops_PerPlayer x2*
+    
+*Changes do not apply to box midgets in wildlife or crapper midget in old dust
+GearDrops_PerPlayer is 5% at 1 player, 10% at 2, 15% at 3, and 20% at 4 players
+GunsAndGearDropNumPlayersPlusOne drops 2 items with 1 player, 3 with 2, 4 with 3, and 5 with 4 players
+
+-Tubbies have had their loot replaced with the following:
+	-One of (Bunny, WTF, Cracked Sash) guaranteed
+	-BossUniques chance to drop additional Bunny
+	-BossUniques chance to drop additional WTF
+	-BossUniques chance to drop additional Cracked Sash
+	-Drops at least one generation 2 class mod per kill (61+)
+	-Bossuniques *2.0 chance to drop two additional class mods per kill (61+)
+	-Tripled the odds of tubbies dropping a pearl
+	-Tripled the likelihood of getting a gen 2 pearl(they'll drop much more often than gen 1 pearls from tubbies now)
+Skin customization retains its original drop rate.
+
+====================
+13. Chests
+====================
+-Rebalanced the chest and container drop rates for all chests and containers in the game. This includes the special chests at the end of the Scarlett and Jakobs DLCs. (More detail coming with a future changelog in a future version of the mod, sorry!)
+
+-Added legendary item pools to white chests with legendary weighting.
+-Added common item pools to red chests with common weighting.
+-Lowered the rate at which red chests spawn with white and green items significantly.
+-Added scheduling to prevent red chests from dropping class mods until level 10.
+
+-Gave the dust caravan a dahl red chest.
+
+-LWT loaders now have red chest loot instead of white chest loot.
+
+====================
+14. Vendors
+====================
+-Rebalanced vendor inventories. Vendors can now spawn with any rarity of item in any slot, and have better inventories in general. Be sure to check them! Improves with playthrough and playercount.
+
+-Halved the price of items that appear in Torgue vendors.
+-Doubled the number of items that appear in seraph vendors.
+
+-Lowered the cost of ammo from base 0.9 to 0.5 in TVHM, and 0.1 in UVHM
+-Lowered the cost of RPG ammo from base 10 to 5.25 in TVHM, and 0.5 in UVHM
+-Lowered the cost of grenade ammo from base 5 to 2.625 in TVHM and 0.25 in UVHM
+-Lowered the cost of health vials from base 3 to 1.65 in TVHM and 0.3 in UVHM
+-Lowered the rate at which respec cost scales per level from 1.12 to 1.09
+
+====================
+15. Misc
+====================
+-Returned Krieg's Raving Retribution Rants but made them much less common.
+-Added version notification at the bottom of the Bad Ass Rank screen. (credit to UCP)
+-Legendary Ranger now actually boosts onslaught.
+-Disabled the ability to create public online lobbies. (level 73+ players sometimes have their characters wiped when joining a 72 game)
+-Removed bank SDUs from Earl's store. (Bank is infinite now)
+-Reduced the cost of the last four backpack upgrades from Earl's store.
+-Vehicles are no longer slaggable (credit to UCP)

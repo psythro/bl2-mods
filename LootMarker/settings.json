@@ -1,0 +1,11 @@
+{
+    "Options": {
+        "Compatibility Mode": "Exodus",
+        "Enable Spawn Sound": true,
+        "Enable Player Dropped Sound": false,
+        "Sound Event": "Coop-Ding",
+        "Enable Dynamic Markers": false,
+        "Marker Type": "Customization Station"
+    },
+    "AutoEnable": false
+}

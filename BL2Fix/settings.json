@@ -1,0 +1,71 @@
+{
+    "Options": {
+        "Multiplayer travel delay": 0,
+        "Gamepad Dialog Skip": true,
+        "Cutscenes": "All",
+        "Preferred technical": "Catapult",
+        "Preferred runner": "Rocket",
+        "Menu pause": true,
+        "Menu in air": true,
+        "Starting Gear": "All",
+        "DLC Pop-Ups": false,
+        "Golden Key Pop-Ups": false,
+        "Fix Audio": true,
+        "Menu Ads": "BL2Fix",
+        "Currency Beam Colour": "Original",
+        "Eridium Auto-Pickup": "Always",
+        "Turret Throw Speed": "Original",
+        "Max OP Level": "OP10",
+        "BL2Fix Training Messages": "Disabled",
+        "Hidden option1": true,
+        "Hidden option2": false,
+        "Hidden option3": false,
+        "Hidden option4": false,
+        "Hidden option5": false,
+        "Hidden option6": true,
+        "Advanced Options": {
+            "Loot Pools": {
+                "Global Loot Rebalance": true,
+                "Enemyuse Gun Drops": true,
+                "Enemyuse Legendary Guns": true,
+                "BossUniques Scaling": true,
+                "GunsAndGear Scaling": true,
+                "Item Level Variance": true
+            },
+            "Item Changes": {
+                "Weapon Part Scaling": true,
+                "Shield Part Scaling": true,
+                "Grenade Part Scaling": true,
+                "Com Part Scaling": true,
+                "Relic Part Scaling": true
+            },
+            "Gameplay Changes": {
+                "Experience Modifier": true,
+                "Enemy Spawn Modifier": true
+            },
+            "Misc Changes": {
+                "Vendor Price Modifier": true,
+                "Free Digipeak Chests": true,
+                "Upgrade Caravan Chest": true,
+                "Grog Nozzle Mission Reward": true,
+                "Raving Retribution Rants": true,
+                "\"Running BL2Fix\"": true,
+                "Legendary Ranger Fix": true,
+                "Vehicle Permaslag": true,
+                "Reusable Echo Logs": true,
+                "Raid Crash Prevention": true,
+                "Repeatable Missions": true,
+                "Earlier Raid Access": true,
+                "Unlimited Bank": true,
+                "Cheaper SDUs": true
+            },
+            "UCP Compatibility": {
+                "UCP Loot + MP Scale": false
+            }
+        }
+    },
+    "Keybinds": {
+        "Skip current dialog": "Z"
+    },
+    "AutoEnable": true
+}

@@ -1,0 +1,9 @@
+{
+    "Keybinds": {
+        "Quickload w/o Saving": "F7",
+        "Quickload w/ Saving": "F8",
+        "Toggle Location Restore": "F10",
+        "Save Location": "F5"
+    },
+    "AutoEnable": false
+}
